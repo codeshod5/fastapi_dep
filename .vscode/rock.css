@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding: 0;
+}
+h1{
+    background-color: rgb(94, 105, 171);
+    color:antiquewhite;
+    height: 5rem;
+    text-align: center;
+}
+.choice{
+    height: 200px;
+    width: 200px;
+    border-radius: 50% ; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.choice:hover{
+    opacity: 0.5;
+    cursor:pointer;
+    background-color: pink;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.choices{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+
+}
+.scoreconatiner{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+ 
+ gap: 5rem;
+}
+#userscore,#compscore{
+    font-size: 2rem;
+   
+}
+.msgcontainer{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    border-radius: 2px;
+}
+#msg{
+    background-color: black;
+    color:bisque;
+    margin-top: 2rem;
+    
+
+    /* display inline karne vahi ka vahi  */
+
+}
